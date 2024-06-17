@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Olivos</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <h1 class="titulo-estilo">Centro Médico Veterinario Los Olivos</h1>
+    <hr>
+   <div class="contenedor1">
+        <input type="button" class="boton-estilo1" value="Inicio" onclick="enviarAccion('Inicio')">   
+        <input type="button" class="boton-estilo1" value="Tienda" onclick="enviarAccion('Tienda')">
+        <input type="button" class="boton-estilo1" value="Servicios" onclick="enviarAccion('Servicios')">
+        <input type="button" class="boton-estilo1" value="Sobre nosotros" onclick="enviarAccion('Sobre_nosotros')">
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/home.js"></script>
+    
+    <div class="contenedor2">
+        <div class="image1">
+            <img src="../images/cerca-veterinario-cuidando-perro.jpg" alt="Lo mejor para tu peludito" />
+        </div>
+        <div class="text1">
+            <h2>Bienvenidos a Los Olivos</h2>
+            <p>En el Centro Médico Veterinario Los Olivos, ofrecemos una gama completa de servicios para mantener a sus mascotas sanas y felices. Nuestro equipo de profesionales está dedicado a brindar la mejor atención posible.</p>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="contenedor2reverse">
+        <div class="text1">
+            <h2>¡Visita nuestra tienda!</h2>
+            <p>Dentro de nuestra tienda física y virtual, tu destino integral para productos de alta calidad, desde alimentos y golosinas hasta juguetes y accesorios. Nuestro personal experto está listo para asesorarte, asegurar el bienestar y felicidad de tus mascotas. ¡Visítanos y descubre lo mejor para tus amigos peludos!</p>
+        </div>
+        <div class="image1">
+            <img src="../images/adorable-dog-with-owner-pet-shop.jpg" alt="Tienda" />
+        </div>
+    </div>
+    <hr />
+
+    <div id="resultado"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='js/home.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    background: #E6E6FA;
+}
+
+.titulo-estilo {
+    color: #333; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    line-height: 1.5; 
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    
+    
+}
+
+.boton-estilo1 {
+    background-color: #00D6DC;
+    border: solid; 
+    color: black; 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+}
+
+.boton-estilo1:hover {
+    background-color: #03C4CA;
+}
+
+.contenedor1 {
+    text-align: center;
+}
+
+.construction {
+    max-width: 100%;
+    height: auto;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
+}
+
+.construction img {
+    max-width: 100%; /* Ajusta la imagen al 100% del ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
