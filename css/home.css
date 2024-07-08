@@ -1,0 +1,73 @@
+body {
+    background: #E6E6FA;
+}
+
+.titulo-estilo {
+    color: #333; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    line-height: 1.5; 
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    
+    
+}
+
+.boton-estilo1 {
+    background-color: #00D6DC;
+    border: solid; 
+    color: black; 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+}
+
+.boton-estilo1:hover {
+    background-color: #03C4CA;
+}
+
+.contenedor1 {
+    text-align: center;
+}
+
+.contenedor2, .contenedor2reverse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.image1 {
+    flex: 1;
+    text-align: center;
+    align-self: center;
+}
+
+.image1 img {
+    max-width: 100%;
+    height: auto;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.text1 {
+    flex: 1;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    align-self: center;
+}
+
+.contenedor2reverse .text {
+    text-align: right;
+}
+
